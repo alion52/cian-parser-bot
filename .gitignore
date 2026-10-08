@@ -1,0 +1,47 @@
+# Environment
+.env
+.env.local
+config.php
+.httpauth
+
+# Composer
+/vendor/
+/composer.phar
+/composer.lock
+
+# Логи
+/logs/*
+!/logs/.gitkeep
+*.log
+
+# Temp
+/temp/*
+!/temp/.gitkeep
+
+# Cache
+/web_cache/
+cian_cache.db
+gpt_rate_limit.json
+
+# Отладка
+debug_log.txt
+cian_debug_result.json
+cian_page.html
+
+# Мусор
+info.php
+debug.php
+index.php
+install-composer.php
+admin
+
+# PDF
+*.pdf
+
+# IDE
+/.idea/
+/.vscode/
+*.sublime-*
+
+# Системные
+.DS_Store
